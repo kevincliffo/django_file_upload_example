@@ -1,1 +1,1 @@
-ECHO is on.
+web: gunicorn library.wsgi --log-file -
